@@ -1,0 +1,115 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+#hero-image {
+  
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230704/pngtree-contemporary-beige-home-interior-featuring-chic-modern-furniture-3d-render-image_3756970.jpg');
+  /* background-color: #cccccc; */
+}
+
+.carousel-image {
+  height: 29px;
+  width: 29px;
+  /* border-radius: var(--bs-card-border-radius) 0 0 var(--bs-card-border-radius); */
+}
+
+.carousel-cards-wrapper {
+  bottom: -20px;
+}
+.carousel-cards{
+  bottom: -20px;
+  right: 0px;
+  margin-left: 20px
+}
+
+/* .hero-banner-searchbox {
+  position: absolute;
+  /* max-width: 1100px; */
+  /* width: calc(100% - 10px); */
+  /* left: 50%;
+  transform: translate(-50%, -54px);
+  z-index: 3;
+} */ 
+.card-img-overlay {
+  background-image: url('https://tinyurl.com/4nehje9w');
+  /* opacity: 0.5; */
+  /* background-position: stretch; */
+}
+.hover-shadow:hover {
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+.brand-color{
+  color: #6c4232 !important;
+}
+
+.hover-effect:hover{
+  color: #6c4232 !important;
+  text-decoration: underline;
+}
+.brand-color-products{
+  color: #3d2624 !important;
+}
+
+.categories-hover:hover{
+  background-color: #f0d9bd !important;
+}
+
+.carousel-bg-gd{
+  background: rgb(255,255,255);
+  background: linear-gradient(93deg, rgba(255,255,255,1) 0%, rgba(240,217,189,1) 100%);
+}
+
+.button-style{
+  /* background-color: #6c4232 !important; */
+  color: #6c4232 !important;
+  border-radius: 50px !important;
+  border-color: #6c4232 !important;
+}
+.button-style:hover{
+  background-color: #6c4232 !important;
+  color: #f0d9bd !important;
+}
+
+.indicator-color{
+  background-color: #6c4232 !important;
+}
