@@ -54,9 +54,7 @@ export default function QuizScreen() {
       function checkScore (answer:any){
         if(answer === questions[currentIndex].correctAns){
             setScore(score + 1);
-            console.log("i am here");
         }
-        // console.log(score);
       }
 
 
